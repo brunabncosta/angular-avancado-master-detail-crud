@@ -1,6 +1,7 @@
 import { InMemoryDbService, RequestInfo } from "angular-in-memory-web-api";
 import { SSL_OP_NO_TLSv1_1 } from "constants";
 import { Observable } from "rxjs";
+import { Category } from "./pages/categories/shared/category.model";
 
 export class InMemoryDatabase implements InMemoryDbService {
   
